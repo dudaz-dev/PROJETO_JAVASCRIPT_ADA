@@ -34,5 +34,4 @@ O projeto de lista de tarefas deve permitir:
 Desenvolvido com 💚 por **Equipe 07**: Yashina Gomes, Maria Eduarda, Lidor Brosh e Vanessa Misiti.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/dudaz-dev/PROJETO_JS_ADA/blob/main/LICENSE) file for details.
-
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/dudaz-dev/PROJETO_JS_ADA/blob/main/LICENSE)
