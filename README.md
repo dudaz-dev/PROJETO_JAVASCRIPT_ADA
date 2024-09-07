@@ -25,14 +25,25 @@ O projeto de lista de tarefas deve permitir:
 - **Obter uma Tarefa por ID**: Permitir a visualização de uma tarefa específica usando seu identificador.
 
 ## Observações
-**Armazenamento**: As tarefas foram armazenadas em um array, sem persistência em banco de dados.
+- **Armazenamento**: As tarefas foram armazenadas em um array, sem persistência em banco de dados.
+- **Dados**: Os dados dos animais estão no arquivo dados.js.
+- **Design**: O design da página está no arquivo style.css. 
+- **Funcionalidades**: A lógica da pesquisa está no arquivo app.js. 
 
 ## Boas Práticas
 **Organização do Código**: O código foi feito com uma estrutura limpa e bem organizada, incluindo comentários e boa indentação.
 
+## Como ela funciona?
+
+**Digite e pesquise**: Você digita o animal que quer encontrar na caixinha de pesquisa.
+**Mágica acontece**: A aplicação vasculha um banco de dados gigante (que está no arquivo dados.js) e procura por tudo que tenha a ver com o que você digitou.
+**Resultados na tela**: Se a aplicação encontrar algo, ela mostra pra você um card com os dados do animal, uma breve descrição e um botão para saber mais. 
+
 ## Intruções
 **Instalação**: Para fazer a cópia do repositório utilize esse guia [INSTRUCTION](https://github.com/dudaz-dev/PROJETO_JS_ADA/blob/main/INSTRUCTION.md)
 
+## Deploy
+**Confira** esse é o link do meu [DEPLOY](https://projeto-alura-imersao-dev-8dm9.vercel.app/).
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/dudaz-dev/PROJETO_JS_ADA/blob/main/LICENSE)
 
