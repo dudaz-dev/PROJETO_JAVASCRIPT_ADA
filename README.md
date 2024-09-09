@@ -30,6 +30,9 @@ O projeto de lista de tarefas deve permitir:
 ## Intruções
 **Instalação**: Para fazer a cópia do repositório utilize esse guia [INSTRUCTION](https://github.com/dudaz-dev/PROJETO_JS_ADA/blob/main/INSTRUCTION.md)
 
+## Documentação
+Para acessar a documentação do projeto acesse [DOCUMENT](https://github.com/dudaz-dev/PROJETO_JS_ADA/blob/main/DOCUMENT.md)
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/dudaz-dev/PROJETO_JS_ADA/blob/main/LICENSE)
 
