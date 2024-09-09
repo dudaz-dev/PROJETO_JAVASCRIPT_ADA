@@ -104,8 +104,8 @@ async function exibirMenu() {
             tratarErroAdicionarTarefa(error); // Trata erros ao adicionar a tarefa.
           }
           break;
-          
-          
+
+
         case '2':
           try {
             const idTarefaEditar = await question(`Digite o ID da tarefa a ser editada: `);
@@ -177,3 +177,27 @@ async function exibirMenu() {
     }
   } while (opcaoEscolhida !== '6'); // Continua exibindo o menu até que o usuário escolha a opção de sair.
 }
+
+// Funções de tratamento de erro personalizado para diferentes situações.
+function tratarErroAdicionarTarefa(error) {
+  console.error(`Erro ao adicionar tarefa: ${error.message}`);
+}
+
+function tratarErroEditarTarefa(error) {
+  console.error(`Erro ao editar tarefa: ${error.message}`);
+}
+
+function tratarErroRemoverTarefa(error) {
+  console.error(`Erro ao remover tarefa: ${error.message}`);
+}
+
+function tratarErroListarTarefas(error) {
+  console.error(`Erro ao listar tarefas: ${error.message}`);
+}
+
+function tratarErroBuscarTarefa(error) {
+  console.error(`Erro ao buscar tarefa: ${error.message}`);
+}
+
+// Inicia o programa exibindo o menu.
+exibirMenu();
